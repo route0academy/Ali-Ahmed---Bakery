@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- #region Meta tags of the document -->
+
+    <!-- #region Keep in mind ABOUT META TAGS -->
+    <!-- ! If you don’t want to display your web page in search results at all, -->
+    <!-- ! just add this meta tag inside your head section: -->
+    <!-- ! ----- <meta name="robots" content="none" /> ---- -->
+    <!-- *** -->
+    <!-- ! Because the keywords meta tag was so often abused, -->
+    <!-- ! many years ago Google began disregarding the keywords meta tag. -->
+    <!-- #endregion -->
+
+    <!-- #region Char Set -->
+
+    <meta charset="UTF-8" />
+
+    <!-- #endregion -->
+
+    <!-- #region View Port -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- #endregion -->
+
+    <!-- #region Description Meta Tag -->
+    <!-- ! Google will keep the first 150-160 characters of your meta description, and cut the rest. -->
+
+    <meta name="description" content="A description of the page" />
+
+    <!-- #endregion -->
+
+    <!-- #region Open Graph Tag -->
+    <!-- ! Facebook will use open graph to display information if your content is shared. -->
+    <!-- ! Whatsapp doesn't support picture with a size greater than 300KB. -->
+
+    <meta property="og:title" content="Family Bakery | MrAli" />
+
+    <meta property="og:site_name" content="Family Bakery | MrAli" />
+
+    <meta
+      property="og:image:secure_url"
+      content="http://webdevelopmentscripts.com/post-images/685b-change-browser-address-bar-color-chrome-android.jpeg"
+    />
+
+    <meta property="og:image:type" content="image/jpeg" />
+
+    <meta
+      property="og:url"
+      content="http://webdevelopmentscripts.com/64-how-to-change-the-address-bar-color-in-chrome-firefox-opera-safari"
+    />
+
+    <meta
+      content="https://maps.google.com/maps/api/staticmap?center=29.93661805%2C32.4806888&amp;zoom=15&amp;size=900x900&amp;language=en&amp;sensor=false&amp;client=google-maps-frontend&amp;signature=SOuNet20tQ7dFWSuOY3f5RIxQQE"
+      itemprop="image"
+    />
+
+    <meta property="og:description" content="CSS TASK 4" />
+
+    <!-- ^ Anything above 300px will not work in WhatsApp. -->
+
+    <meta property="og:image:width" content="300" />
+
+    <meta property="og:image:height" content="300" />
+
+    <!-- #endregion -->
+
+    <!-- #region Twitter Card Tag -->
+    <!-- ! Twitter Cards work similar to OG with the exception that these are specifically for Twitter. -->
+
+    <meta name="twitter:card" content="summary" />
+
+    <!-- #endregion -->
+
+    <!-- #endregion -->
+
+    <!-- #region Title -->
+    <!-- ! Google will only display the first 50-60 characters of your title, and cut the rest. -->
+    <!-- ! So long as you fit the important information before the cut-off point. ​-->
+
+    <title>Family Bakery | MrAli</title>
+
+    <!-- #endregion -->
+
+    <!-- #region Fav icon -->
+
+    <link
+      rel="icon"
+      href="http://www.engage.veented.com/wp-content/uploads/2017/11/cropped-favicon-192x192.png"
+      sizes="192x192"
+    />
+
+    <!-- #endregion -->
+
+    <!-- #region Fonts -->
+
+    <!-- ^ Alegreya & Alegreya Sans Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&family=Alegreya:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- #endregion -->
+
+    <!-- #region CSS Files-->
+
+    <!-- ^ Animation CSS File -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- ^ Font Awesome CSS File -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- ^ Main CSS File-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- #endregion -->
+  </head>
+
+  <body>
+    <!-- #region Body Header -->
+    <!-- ^ Navigation Bar -->
+
+    <header id="header">
+      <!-- #region Keep in mind! ABOUT HEADER TAG -->
+
+      <!-- ! You can use more than one <header> tag. -->
+      <!-- ! We recommend not using more than two header tags. -->
+      <!-- ! One is for the logo section, and another is under <main> HTML5.2 Tag. -->
+
+      <!-- #endregion -->
+
+      <nav class="container">
+        <img class="logo" src="images/bakery-light-1.png" alt="Bakery logo" />
+        <ul class="navigation-elements">
+          <li><a href="#header">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">our offer</a></li>
+          <li><a href="#">gallery</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- #endregion -->
+
+    <!-- #region Body Main -->
+
+    <main>
+      <!-- #region fixed-btn-->
+      <ul id="fixed-btn">
+        <a href="#"><i class="fa fa-search" style="font-size: 20px"></i></a>
+        <a href="#"
+          ><i class="fa fa-shopping-cart" style="font-size: 20px"></i
+        ></a>
+      </ul>
+      <!-- #endregion -->
+
+      <!-- #region go-top-btn-->
+      <div id="go-top-btn">
+        <a href="#header"><i class="fa fa-arrow-circle-o-up"></i></a>
+      </div>
+      <!-- #endregion -->
+
+      <!-- #region keep in mind! -->
+      <!-- ! Please keep in mind that <main> tag can’t be a child of <header>, <nav> <article>, <aside> or <footer> tag. -->
+      <!-- ! If you do, then this would be the wrong practice. -->
+      <!-- #endregion -->
+
+      <!-- ^ Welcome to Family Bakery -->
+      <!--  #region Home Section "Welcome to Family Bakery" -->
+      <!-- ! <section> tag can be used to display the block section of the webpage. -->
+      <!-- ! section element may contain <header>, <footer> and also <section> element itself. -->
+
+      <section id="home">
+        <div class="container">
+          <p>welcome to</p>
+
+          <h1>family bakery</h1>
+
+          <p>
+            We're the biggest, best equipped and most advanced Bakery in the
+            greater Los Angeles area.
+          </p>
+
+          <div class="buttons">
+            <button class="learn-more-btn">learn more</button>
+
+            <button class="contact-us-btn">contact us</button>
+          </div>
+
+          <div class="scroll-shap">
+            <div
+              class="dot animate__animated animate__fadeOutDown animate__infinite"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- #endregion -->
+
+      <!-- ^ Who we are? -->
+      <!--  #region About Section "Who we are?" -->
+      <section id="who-we-are">
+        <div class="container">
+          <img
+            class="image"
+            src="images/who-we-are-image.jpg"
+            alt="baked product"
+          />
+          <div class="caption">
+            <h2>Who we are?</h2>
+            <p>
+              We have been operating for over 30 years and are Members of The
+              Federation of Master Builders. We work on projects big and small
+              from small residential extensions to full house. We are so happy
+              with this theme. Everyday it make our lives better.
+            </p>
+            <ul class="icon-list">
+              <li>
+                <i class="fa fa-envira"></i>
+                <span>We care about environment.</span>
+              </li>
+              <li>
+                <i class="fa fa-users"></i>
+                <span>We are trusted by hundreds of clients.</span>
+              </li>
+              <li>
+                <i class="fa fa-heart"></i>
+                <span>Social media loves us!</span>
+              </li>
+              <li>
+                <i class="fa fa-check"></i>
+                <span>This list is super easy to create.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- ^ Our Location -->
+      <!--  #region Section "Our Location" -->
+      <section id="our-location">
+        <div class="container">
+          <div class="caption">
+            <h2>our location</h2>
+            <p>
+              We have been operating for over 30 years and are Members of The
+              Federation of Master Builders. We work on projects big and small
+              from small residential extensions to full house. We are so happy
+              with this theme. Everyday it make our lives better.
+            </p>
+            <p>
+              Story on projects big and small from small residential extensions
+              to full house. We are so happy with this theme. Everyday it make
+              our lives better.
+            </p>
+          </div>
+          <img src="images/our-location-image.jpg" alt="bakery-store" />
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- ^ Our Baking -->
+      <!--  #region Section "Our Baking" -->
+      <section id="our-baking">
+        <div class="container">
+          <div class="caption">
+            <h2>Our Baking</h2>
+            <p>
+              Learn more about them. We have worked truly hard to make them
+              perfect for every use.
+            </p>
+          </div>
+          <div class="products">
+            <div class="product">
+              <img
+                src="images/1-superior-breads-image.jpg"
+                alt="superior-breads"
+              />
+              <h3>Superior Breads</h3>
+              <p>
+                Proin interdum, ante ut sollicitudin commodo, tellus quam
+                sagittis libero, at semper mauris velit a velit. Phasellus
+                commodo turpis et lacinia posuere.
+              </p>
+            </div>
+            <div class="product">
+              <img src="images/2-bagels-image.jpg" alt="bagels" />
+              <h3>Bagels</h3>
+              <p>
+                Proin interdum, ante ut sollicitudin commodo, tellus quam
+                sagittis libero, at semper mauris velit a velit. Phasellus
+                commodo turpis et lacinia posuere.
+              </p>
+            </div>
+            <div class="product">
+              <img src="images/3-cookies-image.jpg" alt="cookies" />
+              <h3>Cookies</h3>
+              <p>
+                Proin interdum, ante ut sollicitudin commodo, tellus quam
+                sagittis libero, at semper mauris velit a velit. Phasellus
+                commodo turpis et lacinia posuere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- ^ Contact Information -->
+      <!--  #region Section "Contact Information" -->
+      <section id="contact-information">
+        <div class="container">
+          <div class="caption">
+            <h2>Contact Information</h2>
+            <p>
+              I am text block. Click edit button to change this text. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+              luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+            <h3 id="list-title">Our contact details:</h3>
+            <ul aria-labelledby="list-title" role="list">
+              <li>
+                <i class="fa fa-map-o"></i>
+                <span>Manchester St 123-78B, Random 713, UK</span>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <span>+46 123 456 789</span>
+              </li>
+              <li>
+                <i class="fa fa-headphones"></i>
+                <span>+37 431 456 789</span>
+              </li>
+              <li>
+                <i class="fa fa-envelope-o"></i>
+                <span>hello@sitename.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="google-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3777.987407558813!2d98.9933669!3d18.7540995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDQ1JzE0LjciTiA5OMKwNTknNDQuMCJF!5e0!3m2!1sid!2s!4v1469346687955"
+              width="550"
+              height="530"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+    </main>
+    <!-- #endregion -->
+
+    <!-- #region Body Footer -->
+
+    <footer id="footer">
+      <!-- #region up-section-->
+      <section class="up-section">
+        <div class="container">
+          <!-- #region about-us-->
+          <section class="about-us">
+            <h3>About us</h3>
+            <p>
+              I am text block. Click edit button to change this text. Lorem
+              ipsum dolor sit amet, consectetur. I am text block. Click edit
+              button to change this text. Lorem ipsum dolor sit amet,
+              consectetur.
+            </p>
+            <p>
+              We are the champions! We are the most amazing theme of all time,
+              yeah.
+            </p>
+          </section>
+          <!-- #endregion -->
+          <!-- #region why-we-are-special-->
+          <section class="why-we-are-special">
+            <h3>Why we are special?</h3>
+            <ul>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Our magical recipe.</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>We care about environment.</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>We are trusted by hundreds of clients.</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Social media loves us!</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>This list is super easy to create.</span>
+              </li>
+            </ul>
+          </section>
+          <!-- #endregion -->
+          <!-- #region Opening Hours -->
+          <section class="opening-hours">
+            <h3>Opening Hours</h3>
+            <ul>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Monday 10AM - 9PM</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Tuesday 10AM - 9PM</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Wednesday 10AM - 9PM</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Thursday 10AM - 10PM</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Friday 10AM - 10PM</span>
+              </li>
+              <li>
+                <i class="fa fa-angle-right"></i>
+                <span>Weekends 10AM - 11PM</span>
+              </li>
+            </ul>
+          </section>
+          <!-- #endregion -->
+          <!-- #region Contact Details -->
+          <section class="contact-details">
+            <h3>Contact Details</h3>
+            <img
+              class="under-layer"
+              src="images/contact-details-map.png"
+              alt="contact-details-map"
+            />
+            <ul>
+              <li>
+                <i class="fa fa-map-marker"></i>
+                <span
+                  >Manchester Road 123-78B, Silictown 7854MD, Great
+                  Country</span
+                >
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <span><a href="tel:+01022033579">+20 102 203 3579</a></span>
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <span
+                  ><a href="mailto:MrAliAhmedM@gmail.com"
+                    >MrAliAhmedM@gmail.com</a
+                  ></span
+                >
+              </li>
+              <li>
+                <i class="fa fa-globe"></i>
+                <span><a href="#">http://www.sitename.com</a></span>
+              </li>
+            </ul>
+          </section>
+          <!-- #endregion -->
+        </div>
+      </section>
+      <!-- #endregion -->
+      <!-- #region down-section-->
+      <section class="down-section">
+        <div class="container">
+          <img src="images/bakery-light-1.png" alt="website logo" />
+          <p>
+            developed by
+            <a target="_blank" href="https://wa.me/201022033579">MrAli</a> all
+            copy rights reserved @2023
+          </p>
+          <!-- #region social-media-->
+          <section class="social-media">
+            <a target="_blank" href="https://wa.me/201022033579">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+          </section>
+          <!-- #endregion -->
+        </div>
+      </section>
+      <!-- #endregion -->
+    </footer>
+
+    <!-- #endregion -->
+  </body>
+</html>
